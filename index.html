@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Countries</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+
+<header class="site-header pl-1 pr-1 pt-4 pb-4 ">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a class="logo-link d-block" href="#">
+      <h1 class="logo-title h5 d-block m-0 ">Where in the world?</h1>
+    </a>
+    <button class="theme-btn d-flex align-items-center border-0 bg-transparent d-block" type="button">Dark Mode</button>
+  </div>
+</header>
+
+<!-- SITE-MAIN -->
+
+<main class="site-main">
+  <div class="container">
+    <h2 class="sr-only">Rest Countries API - find any country and get about it</h2>
+      <form class="index-form mt-4 mx-auto d-md-flex align-items-md-center justify-content-md-between" action="https://echo.htmlacademy.ru" method="GET">
+        <input class="search-input form-control border-0" type="search" name="search" aria-label="search countries"
+        placeholder="Search for a country…" autocomplete="off">
+
+        <select class="select-countries form-control mt-4 w-50 mt-md-0" name="region" id="region" aria-label="select countries">
+          <option class="select-option" value="" selected disabled>Filter by Region</option>
+
+          <option class="select-option" value="Africa">Africa</option>
+          <option class="select-option" value="America">America</option>
+          <option class="select-option" value="Asia">Asia</option>
+          <option class="select-option" value="Europe">Europe</option>
+          <option class="select-option" value="Oceania">Oceania</option>
+
+        </select>
+      </form>
+
+      <!-- SITE-MAIN -->
+
+<div class="row">
+
+  <div class="col col-auto p-0 mb-5 mt-5 mx-auto rounded shadow mb-md-1">
+    <img class="d-block rounded-top" src="./img/germany.png" alt="Flag Germany" width="267" height="160">
+    <div class="col-info p-4">
+      <h3 class="m-0 mb-3 h5">Germany</h3>
+      <p class="m-0 mb-1">Population: <span class="text-white-50">81,770,900</span></p>
+      <p class="m-0 mb-1">Region: <span class="text-white-50">Europa</span></p>
+      <p class="m-0 mb-1">Capital: <span class="text-white-50">Berlin</span></p>
+    </div>
+  </div>
+
+  <div class="col col-auto p-0 mb-5 mt-5 mx-auto rounded shadow mb-md-1">
+    <img class="d-block rounded-top" src="./img/usa.png" alt="Flag USA" width="267" height="160">
+    <div class="col-info p-4">
+      <h3 class="m-0 mb-3 h5">United States of America</h3>
+      <p class="m-0 mb-1">Population: <span class="text-white-50">323,947,000</span></p>
+      <p class="m-0 mb-1">Region: <span class="text-white-50">Americas</span></p>
+      <p class="m-0 mb-1">Capital: <span class="text-white-50">Washington, D.C.</span></p>
+    </div>
+  </div>
+
+  <div class="col col-auto p-0 mb-5 mt-5 mx-auto rounded shadow mb-md-1">
+    <img class="d-block rounded-top" src="./img/brazil.png" alt="Flag Brazil" width="267" height="160">
+    <div class="col-info p-4">
+      <h3 class="m-0 mb-3 h5">Brazil</h3>
+      <p class="m-0 mb-1">Population: <span class="text-white-50">206,135,893</span></p>
+      <p class="m-0 mb-1">Region: <span class="text-white-50">Americas</span></p>
+      <p class="m-0 mb-1">Capital: <span class="text-white-50">Brasília</span></p>
+    </div>
+  </div>
+
+  <div class="col col-auto p-0 mb-5 mt-5 mx-auto rounded shadow mb-md-1">
+    <img class="d-block rounded-top" src="./img/iceland.png" alt="Flag Iceland" width="267" height="160">
+    <div class="col-info p-4">
+      <h3 class="m-0 mb-3 h5">Iceland</h3>
+      <p class="m-0 mb-1">Population: <span class="text-white-50">334,300</span></p>
+      <p class="m-0 mb-1">Region: <span class="text-white-50">Europa</span></p>
+      <p class="m-0 mb-1">Capital: <span class="text-white-50">Reykjavík</span></p>
+    </div>
+  </div>
+
+  <div class="col col-auto p-0 mb-5 mt-5 mx-auto rounded shadow mb-md-1">
+    <img class="d-block rounded-top" src="./img/afgan.png" alt="Flag Afghanistan" width="267" height="160">
+    <div class="col-info p-4">
+      <h3 class="m-0 mb-3 h5">Afghanistan</h3>
+      <p class="m-0 mb-1">Population: <span class="text-white-50">27,657,145</span></p>
+      <p class="m-0 mb-1">Region: <span class="text-white-50">Asia</span></p>
+      <p class="m-0 mb-1">Capital: <span class="text-white-50">Kabul</span></p>
+    </div>
+  </div>
+
+  <div class="col col-auto p-0 mb-5 mt-5 mx-auto rounded shadow mb-md-1">
+    <img class="d-block rounded-top" src="./img/aland.png" alt="Flag Aland" width="267" height="160">
+    <div class="col-info p-4">
+      <h3 class="m-0 mb-3 h5">Åland Islands</h3>
+      <p class="m-0 mb-1">Population: <span class="text-white-50">28,875</span></p>
+      <p class="m-0 mb-1">Region: <span class="text-white-50">Europa</span></p>
+      <p class="m-0 mb-1">Capital: <span class="text-white-50">Mariehamn</span></p>
+    </div>
+  </div>
+
+  <div class="col col-auto p-0 mb-5 mt-5 mx-auto rounded shadow mb-md-1">
+    <img class="d-block rounded-top" src="./img/albania.png" alt="Flag Albania" width="267" height="160">
+    <div class="col-info p-4">
+      <h3 class="m-0 mb-3 h5">Albania</h3>
+      <p class="m-0 mb-1">Population: <span class="text-white-50">2,886,026</span></p>
+      <p class="m-0 mb-1">Region: <span class="text-white-50">Europa</span></p>
+      <p class="m-0 mb-1">Capital: <span class="text-white-50">Tirana</span></p>
+    </div>
+  </div>
+
+  <div class="col col-auto p-0 mb-5 mt-5 mx-auto rounded shadow mb-md-1">
+    <img class="d-block rounded-top" src="./img/algeria.png" alt="Flag Algeria" width="267" height="160">
+    <div class="col-info p-4">
+      <h3 class="m-0 mb-3 h5">Algeria</h3>
+      <p class="m-0 mb-1">Population: <span class="text-white-50">40,400,000</span></p>
+      <p class="m-0 mb-1">Region: <span class="text-white-50">Africa</span></p>
+      <p class="m-0 mb-1">Capital: <span class="text-white-50">Algiers</span></p>
+    </div>
+  </div>
+
+
+</div>
+
+  </div>
+</main>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
