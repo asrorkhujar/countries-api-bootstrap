@@ -1,83 +1,40 @@
 body {
-  color: #fff;
   background-color: #202C36;
 }
 
-/* HEADER */
-
 .site-header {
+background-color: #2B3844;
+}
+
+.search-form__input-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.search-form__search-icon {
+  position: absolute;
+  z-index: 1;
+  left: 32px;
+  top: calc(50% - 8px);
+}
+
+.search-form__input {
+  padding-left: 74px;
   background-color: #2B3844;
-  /* padding: 30px 16px; */
 }
 
-/* LOGO */
-
-.logo-link {
-  color: #fff;
-  transition: opacity 0.3s ease;
-}
-
-.logo-link:hover {
-  color: #fff;
-  text-decoration: none;
-  opacity: 0.6;
-}
-
-/* BUTTON */
-
-.theme-btn {
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  color: #fff;
-  transition: opacity 0.3s ease;
-}
-
-.theme-btn:hover {
-  color: #fff;
-  opacity: 0.6;
-}
-
-.theme-btn::before {
-  content: "";
-  display: block;
-  background-image: url("../img/icon-moon-dark.svg");
-  width: 18px;
-  height: 18px;
-  margin-right: 10px;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-}
-
-/* FORM */
-
-.search-input {
-  outline: none;
-  padding: 14px 74px;
+.search-form__input:focus {
   background-color: #2B3844;
   color: #fff;
-  box-shadow: 0px 2px 9px rgb(0 0 0 / 5%);
-  background-image: url("../img/icon-search-dark.svg");
-  background-repeat: no-repeat;
-  background-position: 35px center;
-
 }
 
-.search-input::placeholder {
-  /* font-size: 14px;
-  line-height: 20px; */
-  color: #fff;
-}
-
-.search-input:focus {
-  background-color: #2B3844;
+.search-form__input::placeholder {
   color: #fff;
 }
 
 .select-countries {
   color: #fff;
   background-color:#2B3844;
-  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.05);
 }
 
 .select-countries:focus {
@@ -85,24 +42,9 @@ body {
   color: #fff;
 }
 
-/* SITE-MAIN */
-
-.col {
+.countries-card {
   background-color:#2B3844;
 }
 
 
-/* MEDIA */
 
-@media screen and (min-width: 768px) {
-.search-input {
-  width: 480px;
-  flex-grow: initial;
-}
-
-.select-countries {
-  width: 200px !important;
-  flex-grow: initial;
-}
-
-}
