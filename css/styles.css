@@ -3,7 +3,7 @@ body {
 }
 
 .site-header {
-background-color: #2B3844;
+  background-color: #2B3844;
 }
 
 .search-form__input-wrapper {
@@ -60,25 +60,25 @@ dd {
 }
 
 .links {
-display: inline-flex;
-align-items: center;
-text-decoration: none;
-color: #fff;
-background-color: #2B3844;
-padding: 6px 24px;
-border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 300;
+  background-color: #2B3844;
+  padding: 6px 24px;
+  border-radius: 2px;
 }
 
 .links-back-country::before {
   content: "";
   display: block;
-width: 18px;
-height: 18px;
-background-image: url("../img/icon-arrow-left.svg");
-background-repeat: no-repeat;
-background-size: contain;
-background-position: center;
-margin-right: 10px;
+  width: 18px;
+  height: 18px;
+  background-image: url("../img/icon-arrow-left.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-right: 10px;
 }
 
 
