@@ -34,9 +34,18 @@ body {
 
 /* COUNTRY */
 
+.country{
+  background-color:#2B3844;
+}
+
 .country-name {
   font-size: 18px;
   line-height: 26px;
+}
+
+.country__flag {
+  height: 160px;
+  object-fit: cover;
 }
 
 dt {
@@ -55,10 +64,6 @@ dd {
 .select-countries:focus {
   background-color: #2B3844;
   color: #fff;
-}
-
-.country{
-  background-color:#2B3844;
 }
 
 .links-back-country {
