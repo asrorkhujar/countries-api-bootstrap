@@ -32,6 +32,8 @@ body {
   color: #fff;
 }
 
+/* COUNTRY */
+
 .country-name {
   font-size: 18px;
   line-height: 26px;
@@ -55,8 +57,12 @@ dd {
   color: #fff;
 }
 
-.countries-card {
+.country{
   background-color:#2B3844;
+}
+
+.links-back-country {
+  min-width: 136px;
 }
 
 .links {
@@ -79,14 +85,19 @@ dd {
   margin-right: 10px;
 }
 
+.border-countries__link {
+  min-width: 96px;
+}
 
+@media (max-width: 767.98px) {
+  .country__flag {
+    height: 200px;
+  }
+}
 
-/*
-@media only screen and (min-width: 576px){
-  .country-info {
-    display: flex!important;
-    align-items: center!important;
-  } */
-
+@media (max-width: 575.98px) {
+  .country__flag {
+    height: 310px;
+  }
 }
 
